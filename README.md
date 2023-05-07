@@ -1,2 +1,2 @@
-# my_programs_dumps
-my_programs_dumps: some random programs written on the go!
+# Program Dumps
+program_dumps: some random programs written by me on the go!
