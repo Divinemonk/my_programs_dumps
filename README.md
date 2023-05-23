@@ -7,6 +7,7 @@
 |  [Mass remane files](#massnamer) | [source code](https://raw.githubusercontent.com/Divinemonk/program_dumps/m41n/massnamer.py)  |
 | [Monitor mode](#monitormode) | [source code](https://raw.githubusercontent.com/Divinemonk/program_dumps/m41n/monitormode.sh) |
 
+- linux users can use `sudo chmod +x <script/program name>` to run directly (eg: `sudo monitormode wlan1 mon`, without `bash` prefix)
 
 <br>
 
