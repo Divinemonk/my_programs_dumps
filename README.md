@@ -13,6 +13,15 @@ Mass rename files is perticular pattern or style.
 
 ## monitormode
 Change your network interface to monitor mode (and back to managed mode) with one command
+```
+[usage]:  `./monitor-mode <interface> <mode>`
+
+interface -> network interface to change
+mode      -> `mon` for monitor mode
+             `man` for managed mode
+
+RUN script as ROOT: `sudo ./monitor-mode <interface> <mode>`
+```
 
 ### Manual commands:
 - method 1 (used in script)
