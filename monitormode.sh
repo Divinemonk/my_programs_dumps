@@ -1,6 +1,7 @@
 #!/bin/bash
 
-# bash script to change network interface into monitor mode (and back to managed mode)
+# [desc]: bash script to change network interface into monitor mode (or to managed mode)
+# [dev] : A Divinemonk creation!
 
 # check sudo & display help menu
 if [ -z "$1" ] || [[ $1 == *"-h"* ]]
