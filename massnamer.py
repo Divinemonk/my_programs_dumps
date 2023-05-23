@@ -1,4 +1,7 @@
-# A Divinemonk creation!
+#!usr/bin/python3
+
+# [desc]: python program to mass rename files in a dictonary
+# [dev] : A Divinemonk creation!
 
 import os
 import random
