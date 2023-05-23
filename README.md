@@ -47,7 +47,7 @@ mode      -> `mon` for monitor mode
 
 RUN script as ROOT: `sudo ./monitor-mode <interface> <mode>`
 ```
-- Download: `wget https://raw.githubusercontent.com/Divinemonk/program_dumps/m41n/monitormode.sh
+- Download: `wget https://raw.githubusercontent.com/Divinemonk/program_dumps/m41n/monitormode.sh`
 - [Goto source code](https://github.com/Divinemonk/program_dumps/blob/m41n/monitormode.sh)
 
 ### Manual commands:
