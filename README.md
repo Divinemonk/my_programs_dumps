@@ -1,5 +1,5 @@
 # Program Dumps
-> day-to-day workflow automate scripts & programs
+> day-to-day workflow automation scripts & programs
 
 ## Index
 | Name  | Raw code |
