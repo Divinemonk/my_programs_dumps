@@ -40,7 +40,7 @@ optional arguments:
 
 ## monitormode
 - Change your network interface to monitor mode (and back to managed mode) with one command.
-- Sometimes the script works, interface is changed to monitor mode but unable to detect the change and dispalys failed. Try `iw dev` or similar commands to check the interface mode manually
+- Sometimes the script works, interface is changed to monitor mode but unable to detect the change and dispalys failed. Try `iw dev` or similar commands to check the interface mode manually.
 ```
 [usage]:  `./monitor-mode <interface> <mode>`
 
