@@ -9,10 +9,14 @@
 ## massnamer
 Mass rename files is perticular pattern or style.
 
+- Download/get
+  - `wget https://raw.githubusercontent.com/Divinemonk/program_dumps/m41n/massnamer.py`
+  - [Goto source code](https://github.com/Divinemonk/program_dumps/blob/m41n/massnamer.py)
+
 <br>
 
 ## monitormode
-Change your network interface to monitor mode (and back to managed mode) with one command
+- Change your network interface to monitor mode (and back to managed mode) with one command.
 ```
 [usage]:  `./monitor-mode <interface> <mode>`
 
@@ -22,6 +26,9 @@ mode      -> `mon` for monitor mode
 
 RUN script as ROOT: `sudo ./monitor-mode <interface> <mode>`
 ```
+- Download/get
+  - `wget https://raw.githubusercontent.com/Divinemonk/program_dumps/m41n/massnamer.py`
+  - [Goto source code](https://github.com/Divinemonk/program_dumps/blob/m41n/massnamer.py)
 
 ### Manual commands:
 - method 1 (used in script)
