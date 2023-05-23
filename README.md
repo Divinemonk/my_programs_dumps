@@ -11,7 +11,7 @@
 <br>
 
 ## massnamer
-Mass rename files is perticular pattern or style you prefer.
+Mass rename files is particular pattern or style you prefer.
 ```
 usage: ms.py [-h] [-p PATTERN] [-r] [-pf PREFIX] [-npf NEW_PREFIX] FOLDER
 
