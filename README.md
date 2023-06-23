@@ -4,11 +4,13 @@
 ## Index
 | Name  | Raw code |
 | ------------- | ------------- |
-|  [Mass remane files](#massnamer) | [source code](https://raw.githubusercontent.com/Divinemonk/program_dumps/m41n/massnamer.py)  |
+| [Mass remane files](#massnamer) | [source code](https://raw.githubusercontent.com/Divinemonk/program_dumps/m41n/massnamer.py) |
 | [Monitor mode](#monitormode) | [source code](https://raw.githubusercontent.com/Divinemonk/program_dumps/m41n/monitormode.sh) |
+| [Responsor](#responsor) | [source code](https://raw.githubusercontent.com/Divinemonk/program_dumps/m41n/responsor.py) |
 
 ## Notes
 - linux users can use `sudo chmod +x <script/program name>` to run directly (eg: `sudo monitormode wlan1 mon`, without `bash` prefix)
+
 
 <br>
 
@@ -67,3 +69,17 @@ sudo iwconfig <interface> mode monitor
 sudo ifconfig <interface> up
 ```
 - Check \<interface\> name using `iw dev` or `ifconfig`
+
+
+<br>
+
+## responsor
+- display response codes for websites/urls from the given list
+- usecase:
+    - check subdomains response codes (save subdomains in a list: `subfinder -d example.com > URL_LIST.txt`)
+    - have bunch of urls, check response of each
+```
+[usage]: python3 responsor.py URL_LIST.txt
+```
+- Download: `wget https://raw.githubusercontent.com/Divinemonk/program_dumps/m41n/responsor.py`
+- [Goto source code](https://github.com/Divinemonk/program_dumps/blob/m41n/responsor.py)
