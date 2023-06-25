@@ -63,6 +63,8 @@ RUN script as ROOT: `sudo ./monitor-mode <interface> <mode>`
 - Download: `wget https://raw.githubusercontent.com/Divinemonk/program_dumps/m41n/monitormode.sh`
 - [Goto source code](https://github.com/Divinemonk/program_dumps/blob/m41n/monitormode.sh)
 
+<br>
+
 ### Manual commands:
 - method 1 (used in script)
 ```
