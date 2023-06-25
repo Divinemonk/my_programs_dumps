@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 
-# [brrtp]: Burp Raw Requests To Python
 # [dev]  : A Divinemonk creation!
+# [git]  : https://raw.githubusercontent.com/Divinemonk/program_dumps/m41n/brrtp.py
+
+# [brrtp]: Burp Raw Requests To Python
 # [desc] : Convert Burp raw requests to python requests
 # [usage]: python3 brrtp.py <burp_raw_request_file>
 
