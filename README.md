@@ -14,7 +14,7 @@
 <br>
 
 ## Notes
-- linux users can use `sudo chmod +x <script/program name>` to run directly (eg: `sudo monitormode wlan1 mon`, without `bash` prefix)
+- linux users can use `sudo chmod +x <script/program name>` to run directly (eg: `sudo monitormode wlan1 mon`, without `bash`/`python3` prefix)
 
 <br>
 <hr>
