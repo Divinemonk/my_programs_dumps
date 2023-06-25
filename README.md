@@ -6,12 +6,14 @@
 | ------------- | ------------- |
 | [Mass remane files](#massnamer) | [source code](https://raw.githubusercontent.com/Divinemonk/program_dumps/m41n/massnamer.py) |
 | [Monitor mode](#monitormode) | [source code](https://raw.githubusercontent.com/Divinemonk/program_dumps/m41n/monitormode.sh) |
-| [Responsor](#responsor) | [source code](https://raw.githubusercontent.com/Divinemonk/program_dumps/m41n/responsor.py) |
+| [Response code checker](#responsor) | [source code](https://raw.githubusercontent.com/Divinemonk/program_dumps/m41n/responsor.py) |
+| [Burp Raw Requests To Python](brrtp) | [source code](https://raw.githubusercontent.com/Divinemonk/program_dumps/m41n/brrtp.py) |
 
 ## Notes
 - linux users can use `sudo chmod +x <script/program name>` to run directly (eg: `sudo monitormode wlan1 mon`, without `bash` prefix)
 
-
+<br>
+<hr>
 <br>
 
 ## massnamer
@@ -38,6 +40,8 @@ optional arguments:
 - [Goto source code](https://github.com/Divinemonk/program_dumps/blob/m41n/massnamer.py)
 
 
+<br>
+<hr>
 <br>
 
 ## monitormode
@@ -72,6 +76,8 @@ sudo ifconfig <interface> up
 
 
 <br>
+<hr>
+<br>
 
 ## responsor
 - display response codes for websites/urls from the given list
@@ -79,7 +85,24 @@ sudo ifconfig <interface> up
     - check subdomains response codes (save subdomains in a list: `subfinder -d example.com > URL_LIST.txt`)
     - have bunch of urls, check response of each
 ```
-[usage]: python3 responsor.py URL_LIST.txt
+[usage]: python3 responsor.py <url_list_file>
 ```
 - Download: `wget https://raw.githubusercontent.com/Divinemonk/program_dumps/m41n/responsor.py`
 - [Goto source code](https://github.com/Divinemonk/program_dumps/blob/m41n/responsor.py)
+
+
+<br>
+<hr>
+<br>
+
+## brrtp
+- Burp Raw Requests To Python
+- converts raw requests from burp suite to python code
+- output:
+    - prints the converted python code
+    - saves it in a file (named same as `burp_raw_request_file` name with `.py` extenstion)
+```
+python3 brrtp.py <burp_raw_request_file>
+```
+- Download: `wget https://raw.githubusercontent.com/Divinemonk/program_dumps/m41n/brrtp.py`
+- [Goto source code](https://github.com/Divinemonk/program_dumps/blob/m41n/brrtp.py)
