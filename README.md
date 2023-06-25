@@ -100,7 +100,7 @@ sudo ifconfig <interface> up
 - converts raw requests from burp suite to python code
 - output:
     - prints the converted python code
-    - saves it in a file (named same as `burp_raw_request_file` name with `.py` extenstion)
+    - saves it in a file (named same as `burp_raw_request_file` _name_ with `.py` extenstion)
 ```
 python3 brrtp.py <burp_raw_request_file>
 ```
