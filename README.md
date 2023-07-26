@@ -10,6 +10,7 @@
 | [Monitor mode](#monitormode) | [source code](https://raw.githubusercontent.com/Divinemonk/program_dumps/m41n/monitormode.sh) | bash script |
 | [Response code checker](#responsor) | [source code](https://raw.githubusercontent.com/Divinemonk/program_dumps/m41n/responsor.py) | python3 |
 | [Burp Raw Requests To Python](#brrtp) | [source code](https://raw.githubusercontent.com/Divinemonk/program_dumps/m41n/brrtp.py) | python3 |
+| [Optiptical Character Recognizer (OCR)](#ocr) | [source code](https://raw.githubusercontent.com/Divinemonk/program_dumps/m41n/ocr.py) | python3 |
 
 <br>
 
@@ -108,7 +109,25 @@ sudo ifconfig <interface> up
     - prints the converted python code
     - saves it in a file (named same as `burp_raw_request_file` _name_ with `.py` extenstion)
 ```
-python3 brrtp.py <burp_raw_request_file>
+[usage]: python3 brrtp.py <burp_raw_request_file>
 ```
 - Download: `wget https://raw.githubusercontent.com/Divinemonk/program_dumps/m41n/brrtp.py`
 - [Goto source code](https://github.com/Divinemonk/program_dumps/blob/m41n/brrtp.py)
+
+  
+<br>
+<hr>
+<br>
+
+## ocr
+- Optiptical Character Recognizer
+- Extracts text from images
+- it uses tesseract (installation guides: [windows](https://linuxhint.com/install-tesseract-windows/), [linux](https://linuxhint.com/install-tesseract-ocr-linux/), [mac](https://www.oreilly.com/library/view/building-computer-vision/9781838644673/95de5b35-436b-4668-8ca2-44970a6e2924.xhtml))
+- python libraries used: PIL, pytesseract, numpy
+  ```
+  pip install Pillow pytesseract numpy
+  ```
+- usage:
+  ```
+  [usage]: python3 ocr.py <image_filename>
+  ```
