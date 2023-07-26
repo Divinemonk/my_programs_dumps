@@ -127,7 +127,11 @@ sudo ifconfig <interface> up
   ```
   pip install Pillow pytesseract numpy
   ```
-- usage:
-  ```
-  [usage]: python3 ocr.py <image_filename>
-  ```
+
+```
+[usage]: python3 ocr.py <image_filename>
+```
+- Download: `wget https://raw.githubusercontent.com/Divinemonk/program_dumps/m41n/ocr.py`
+- [Goto source code](https://github.com/Divinemonk/program_dumps/blob/m41n/ocr.py)
+
+
