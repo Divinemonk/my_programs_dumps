@@ -123,11 +123,7 @@ sudo ifconfig <interface> up
 - Optiptical Character Recognizer
 - Extracts text from images
 - it uses tesseract (installation guides: [windows](https://linuxhint.com/install-tesseract-windows/), [linux](https://linuxhint.com/install-tesseract-ocr-linux/), [mac](https://www.oreilly.com/library/view/building-computer-vision/9781838644673/95de5b35-436b-4668-8ca2-44970a6e2924.xhtml))
-- python libraries used: PIL, pytesseract, numpy
-  ```
-  pip install Pillow pytesseract numpy
-  ```
-
+- python libraries used: PIL, pytesseract, numpy (`pip install Pillow pytesseract numpy`)
 ```
 [usage]: python3 ocr.py <image_filename>
 ```
