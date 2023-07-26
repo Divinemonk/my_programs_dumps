@@ -10,7 +10,7 @@
 | [Monitor mode](#monitormode) | [source code](https://raw.githubusercontent.com/Divinemonk/program_dumps/m41n/monitormode.sh) | bash script |
 | [Response code checker](#responsor) | [source code](https://raw.githubusercontent.com/Divinemonk/program_dumps/m41n/responsor.py) | python3 |
 | [Burp Raw Requests To Python](#brrtp) | [source code](https://raw.githubusercontent.com/Divinemonk/program_dumps/m41n/brrtp.py) | python3 |
-| [Optiptical Character Recognizer (OCR)](#ocr) | [source code](https://raw.githubusercontent.com/Divinemonk/program_dumps/m41n/ocr.py) | python3 |
+| [Optiptical Character Recognizer](#ocr) | [source code](https://raw.githubusercontent.com/Divinemonk/program_dumps/m41n/ocr.py) | python3 |
 
 <br>
 
