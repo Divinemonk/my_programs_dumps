@@ -3,7 +3,7 @@
 # [dev]  : A Divinemonk creation!
 # [git]  : https://raw.githubusercontent.com/Divinemonk/program_dumps/m41n/ocr.py
 
-# [ocr]: Optiptical Character Recognition
+# [ocr]: Optiptical Character Recognizer
 # [desc] : Extract text from images (using tesseract)
 # [usage]: python3 ocr.py <image_filename>
 
