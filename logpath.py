@@ -1,8 +1,19 @@
+#!/usr/bin/env python3
+
+# [dev]  : A Divinemonk creation!
+# [git]  : https://raw.githubusercontent.com/Divinemonk/program_dumps/m41n/logpath.py
+ 
+# [desc] : Directory tree logger and searcher
+# [usage]: python3 logpath.py -g -f <custom_log_filename>
+#          python3 logpath.py -q <search_query> -f <custom_log_filename>
+
+
 import os
 import argparse
 import time
 import math
 
+# creates directory tree
 def create_directory_tree(root_path, log_file):
     with open(log_file, 'w') as log:
         log.write(f"[L0GP4TH] ROOT DIRECTORY: {root_path}\n") # write the root directory path (input by user)
@@ -17,6 +28,7 @@ def create_directory_tree(root_path, log_file):
             for f in files:
                 log.write('{}{}\n'.format(subindent, f))
 
+# searches input query in logged file
 def search_in_log(log_file, search_query):
     result = []
     with open(log_file, 'r') as log:
@@ -29,6 +41,7 @@ def search_in_log(log_file, search_query):
                 result.append([path, line_index])
     return result
 
+# prints searched file location from logged file
 def print_indented_path(log_file, root_directory, results):
     with open(log_file, 'r') as log:
         lines = log.readlines()
@@ -53,6 +66,7 @@ def print_indented_path(log_file, root_directory, results):
             ftype = '  [DIR ]' if path.endswith('/') else '  [FILE]'
             print(ftype, full_path)
 
+# print created log file size
 def get_file_size(file_path):
     try:
         size = os.path.getsize(file_path)
@@ -60,6 +74,7 @@ def get_file_size(file_path):
     except FileNotFoundError:
         print("[L0GP4TH (err)] FILE NOT FOUND")
 
+# converts file size to human readable format
 def convert_size(size_bytes):
     if size_bytes == 0:
         return "0 B"
@@ -69,6 +84,7 @@ def convert_size(size_bytes):
     s = round(size_bytes / p, 2)
     return f"{s} {size_name[i]}"
 
+# help message
 def display_help():
     help_msg = '''Welcome to logpath - your directory tree logger and searcher!
     \nUsage:
@@ -82,6 +98,7 @@ def display_help():
     -q, --query       Search for a file/folder and get its absolute path'''
     print(help_msg)
 
+# main function
 def main():
     parser = argparse.ArgumentParser(description="Welcome to logpath - your directory tree logger and searcher!")
     parser.add_argument('-g', '--generate', help="Generate directory tree log", action="store_true")
