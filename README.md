@@ -11,6 +11,7 @@
 | [Response code checker](#responsor) | [source code](https://raw.githubusercontent.com/Divinemonk/program_dumps/m41n/responsor.py) | python3 |
 | [Burp Raw Requests To Python](#brrtp) | [source code](https://raw.githubusercontent.com/Divinemonk/program_dumps/m41n/brrtp.py) | python3 |
 | [Optiptical Character Recognizer](#ocr) | [source code](https://raw.githubusercontent.com/Divinemonk/program_dumps/m41n/ocr.py) | python3 |
+| [Filesystem Paths Logger](#logpath) | [source code](https://raw.githubusercontent.com/Divinemonk/program_dumps/m41n/logpath.py) | python3 |
 
 <br>
 
@@ -130,4 +131,30 @@ sudo ifconfig <interface> up
 - Download: `wget https://raw.githubusercontent.com/Divinemonk/program_dumps/m41n/ocr.py`
 - [Goto source code](https://github.com/Divinemonk/program_dumps/blob/m41n/ocr.py)
 
+  
+<br>
+<hr>
+<br>
 
+## logpath
+- Directory tree logger and searcher
+- Generate a log of files & folders paths (w/ `-g`)
+- Search certain file/folder from logged file, _faster that __locate__ or __find__ command_ (w/ `-q`)
+```
+Welcome to logpath - your directory tree logger and searcher!
+    
+Usage:
+    python3 logpath.py -g -f custom_log_filename
+    python3 logpath.py -q search_query -f custom_log_filename
+    [default log filename is `directory_tree_log.txt` if `-f` is not specified]
+    
+Options:
+    -h, --help        Display this help message
+    -g, --generate    Generate directory tree log
+    -f, --filename    Specify custom log file name (default is directory_tree_log.txt)
+    -q, --query       Search for a file/folder and get its absolute path
+```
+- Download: `wget https://raw.githubusercontent.com/Divinemonk/program_dumps/m41n/logpath.py`
+- [Goto source code](https://github.com/Divinemonk/program_dumps/blob/m41n/logpath.py)
+
+  
