@@ -11,12 +11,13 @@
 | [Response code checker](#responsor) | [source code](https://raw.githubusercontent.com/Divinemonk/program_dumps/m41n/responsor.py) | python3 |
 | [Burp Raw Requests To Python](#brrtp) | [source code](https://raw.githubusercontent.com/Divinemonk/program_dumps/m41n/brrtp.py) | python3 |
 | [Optiptical Character Recognizer](#ocr) | [source code](https://raw.githubusercontent.com/Divinemonk/program_dumps/m41n/ocr.py) | python3 |
-| [Filesystem Paths Logger](#logpath) | [source code](https://raw.githubusercontent.com/Divinemonk/program_dumps/m41n/logpath.py) | python3 |
+| [Filesystem Path Logger](#logpath) | [source code](https://raw.githubusercontent.com/Divinemonk/program_dumps/m41n/logpath.py) | python3 |
 
 <br>
 
 ## Notes
 - linux users can use `sudo chmod +x <script/program name>` to run directly (eg: `sudo monitormode wlan1 mon`, without `bash` prefix)
+- all the programs are here are integrated/avaliable in one installation/program [___bto___](https://github.com/Divinemonk/bto)
 
 <br>
 <hr>
